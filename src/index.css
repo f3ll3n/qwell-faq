@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Inter:wght@400;500;700&display=swap");
 /*
 font-family: 'Andika', sans-serif;
 font-family: 'Inter', sans-serif;
@@ -6,19 +6,19 @@ font-family: 'Inter', sans-serif;
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 :root {
-  --green: #44E16773;
-  --red: #FF8686;
-  --redAccent: #C72831;
+  --green: #44e16773;
+  --red: #ff8686;
+  --redAccent: #c72831;
   --black: #000000;
 }
