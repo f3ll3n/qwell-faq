@@ -1,0 +1,115 @@
+.ProgressBar{
+    padding: 18px 0 12px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    z-index: 30;
+}
+.inner_progressbar{
+    z-index: 20;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    position: relative;
+    height: 40px;
+    align-items: center;
+    padding: 0 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.progressbar_text{
+    position: relative;
+    z-index: 50;
+}
+.progress_score{
+    transition: .2s;
+    position: absolute;
+    right: 20%;
+    background-color: #9fdfad;
+    opacity: 0.67;
+    height: 40px;
+    width: 400px;
+}
+.progressbar_toggle_button{
+    cursor: pointer;
+    height: 100%;
+    width: 34px;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.toggle_menu{
+    transition: .2s;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    background-color: rgb(246, 246, 246);
+}
+.toggle_menu_transition{
+    height: 50px;
+    position: relative;
+    width: 100px;
+}
+.progressbar_toggle_button:hover{
+    background-color: #F0F0F0;
+}
+.circle{
+    border-radius: 50%;
+    display: block;
+    background-color: #C6C6C6;
+    width: 4px;
+    height: 4px;
+}
+.rounded_figure{
+    background-color: #ffffff;
+    height: 12px;
+    width: 115px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border-radius: 6px;
+}
+.navbar{
+    position: absolute;
+    right: 0;
+    top: 32px;
+    border-radius: 20px;
+    width: 140px;
+    background-color: rgb(246, 246, 246);
+    display: block;
+    overflow: hidden;
+}
+
+.navbar_item{
+    font-weight: 400;
+    padding: 9px;  
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: .2s;
+}
+.navbar_item:hover{
+    transition: .2s;
+    background: linear-gradient(92.41deg, #D9D9D9 47.98%, rgba(145, 142, 142, 0) 96.33%);
+}
+.hidden{
+    transition: .3s;
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+    z-index: -20;
+}
+@media screen and (max-width: 400px){
+    .progressbar_text{
+        font-size: 18px;
+    }
+}
