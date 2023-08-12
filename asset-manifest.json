@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/qwell-faq-test/static/css/main.eb19cf45.css",
+    "main.js": "/qwell-faq-test/static/js/main.3e5546ac.js",
+    "static/media/svg3.svg": "/qwell-faq-test/static/media/svg3.e9cbe49cd67e9317096c80eac2ce2696.svg",
+    "static/media/logo_icon_text.svg": "/qwell-faq-test/static/media/logo_icon_text.0859ca01a4e53e7522427256c60a11bf.svg",
+    "static/media/svg2.svg": "/qwell-faq-test/static/media/svg2.f2b6733cae7ea5f1c43c954d22059a17.svg",
+    "static/media/svg1.svg": "/qwell-faq-test/static/media/svg1.7a8d4ac5c8e2711e6de01474cda98b1f.svg",
+    "static/media/logo_icon.svg": "/qwell-faq-test/static/media/logo_icon.ed736bda3039ae071cc63216cb3fe433.svg",
+    "static/media/Close.svg": "/qwell-faq-test/static/media/Close.1d1919cc9520dedc92ed884862de5f94.svg",
+    "index.html": "/qwell-faq-test/index.html",
+    "static/media/arrow.svg": "/qwell-faq-test/static/media/arrow.5bec56367c8bf0e1b8874f18f4d99b9e.svg",
+    "main.eb19cf45.css.map": "/qwell-faq-test/static/css/main.eb19cf45.css.map",
+    "main.3e5546ac.js.map": "/qwell-faq-test/static/js/main.3e5546ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb19cf45.css",
+    "static/js/main.3e5546ac.js"
+  ]
+}
