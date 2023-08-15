@@ -1,0 +1,14 @@
+.Navbar {
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  background-color: red;
+  width: 300px;
+  z-index: 99;
+  height: 300px;
+}
+
+.active {
+  left: 0%;
+}

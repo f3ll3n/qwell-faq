@@ -4,6 +4,7 @@ import Logo from "./svg/logo_icon.svg";
 import LogoText from "./svg/logo_icon_text.svg";
 import CloseIcon from "./svg/Close.svg";
 import style from "./Header.module.scss";
+import BurgerButton from "../BurgerButton/BurgerButton";
 
 export const Header = () => {
   return (
@@ -16,10 +17,9 @@ export const Header = () => {
           <img src={LogoText} alt="logo icon text" />
         </div>
         <div>
-          <img className={style.close} src={CloseIcon} alt="close icon" />
+          <BurgerButton />
         </div>
       </div>
-
       <div>
         <ProgressBar />
       </div>
